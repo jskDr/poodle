@@ -4,8 +4,6 @@
 from sklearn import linear_model 
 import pandas as pd
 
-from sklearn import grid_search # Will be removed soon
-
 def read_csv( *args, index_col=0, header=[0,1], **kwargs):
 	"""
 	Emulation for pandas.DataFrame() 
